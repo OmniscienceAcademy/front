@@ -1,0 +1,33 @@
+@use "./abstracts" as *;
+
+.wrapper {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  h1,
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 8rem;
+    font-weight: bolder;
+    background-image: $common-gradient;
+    background-clip: text;
+    color: transparent;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+}
+
+.number {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-clip: text;
+}

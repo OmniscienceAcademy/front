@@ -1,0 +1,35 @@
+{
+    "locales": [
+        "en"
+    ],
+    "defaultLocale": "en",
+    "pages": {
+        "*": [
+            "common",
+            "footer",
+            "descriptions"
+        ],
+        "/": [
+            "home"
+        ],
+        "/choices": [
+            "results",
+            "article"
+        ],
+        "/results": [
+            "results",
+            "article"
+        ],
+        "/article": [
+            "articles"
+        ],
+        "/article/[article_id]": [
+            "article",
+            "articles"
+        ],
+        "/article/search": [
+            "article",
+            "articles"
+        ]
+    }
+}

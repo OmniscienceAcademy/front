@@ -1,0 +1,9 @@
+{
+  "similarArticles": "Similar Articles",
+  "similarNotCitedByUs": "Similar Articles Not Cited By Us",
+  "topArticleCited": "Top Articles Cited by this article",
+  "topArticleCiting": "Top Articles Citing this article",
+  "pageTitle": "{{ title }} | OmniScience",
+  "searchPageTitle": "Search | {{ query }} | OmniScience",
+  "searchListTitle": "Articles founds :"
+}

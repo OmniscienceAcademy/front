@@ -1,0 +1,92 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rawline", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;
+}
+
+body {
+  // not supported by all browser
+  overflow: overlay;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@keyframes hue-rotation {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+.disco {
+  animation: hue-rotation 8s infinite linear;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// #__next and .layoutMain prevent the footer to move up
+// if not enough content on the paghe for it to be at the botton of the page
+
+#__next {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layoutMain {
+  flex: 1;
+  padding-bottom: 150px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+b {
+  font-weight: 700;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.noselect {
+  user-select: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: contain;
+}

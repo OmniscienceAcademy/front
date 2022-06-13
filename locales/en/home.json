@@ -1,0 +1,22 @@
+{
+    "title": "The First Search Engine That Selects The Papers<br/>For Your Literature Reviews<br/>",
+    "tutorialTitle": "Your literature review<br/> made easy",
+    "card1": "We search for <b>all relevant articles</b> based on your query",
+    "card2": "We look for <b>questions</b> already answered in the literature",
+    "card3": "Thanks to the previous steps, we constitute the <b>ideal corpus of articles</b> for your literature review",
+    "illustrationTitle1": "A faster way to discover all articles that matters to you",
+    "illustrationDesc1": "The classic academic search engines were made to search papers and not sets of papers that give an overview of a topic. If you need more articles, you have to spend hours to find them. OmniScience is designed to give you all relevant results on your topic in a few minutes.",
+    "illustrationTitle2": "Make sure you haven't missed an important paper",
+    "illustrationDesc2": "You no longer need to browse the bibliography of interesting papers to find all the articles that interest you. OmniScience screens the literature for you and ensures that you don't miss any essential paper.",
+    "illustrationTitle3": "Multiple way to visualize the results of your search",
+    "illustrationDesc3": "Visualize literature in multiple way helps to have a global picture of your topic. The search results can be viewed as a list or a graph. A tree map view and a dashboard view are coming soon…",
+    "presentationTitle": "Get an overview of the literature on your topic with our powerful search engine",
+    "pres1": "More than 80M papers",
+    "pres2": "A search based on your preferences",
+    "pres3": "Specifically designed for literature reviews",
+    "searchBarPlaceholder": "Search any topic, make a full sentence (ex: What is reinforcement learning?)",
+    "error": "No article matching your query. Please try again.",
+    "pageTitle": "Home | OmniScience",
+    "searchBarBtnAriaLabel": "Search",
+    "letsswipe": "Let's swipe! "
+}

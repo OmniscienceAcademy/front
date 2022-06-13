@@ -1,0 +1,59 @@
+@use "../../abstracts" as *;
+
+.unselected {
+  &:not(:hover, :focus-within) {
+    path {
+      fill: none;
+    }
+  }
+  fill-opacity: 0.4;
+}
+
+.sortButton {
+  position: relative;
+  width: min-content;
+  .sortButtonContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+      margin: 0;
+      font-weight: bold;
+    }
+    transform: translateY(-5%);
+  }
+}
+
+.sortSelection {
+  width: 100%;
+}
+.sortTitle {
+  color: $results-color;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.buttonsWrapper {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.sortButtonWrapper {
+  position: absolute;
+}
+
+.sortButtonID2 {
+  top: 120px;
+}
+.sortButtonID1 {
+  right: 0;
+  top: 50px;
+}

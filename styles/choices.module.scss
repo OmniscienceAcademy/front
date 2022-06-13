@@ -1,0 +1,179 @@
+@use "./abstracts" as *;
+
+$sidebar-top-margin: 50px;
+$wrapper-margin: 50px;
+$button-margin: 20px;
+$button-height: 50px;
+$launch-button-height: 60px;
+
+@function button-grad($color, $mid, $opacity) {
+  @return linear-gradient(
+    180deg,
+    $color 0%,
+    rgba(215, 217, 255, $opacity) $mid,
+    rgba(210, 245, 248, $opacity) 100%
+  );
+}
+
+.tempWrapper {
+  padding: 15px 10px;
+  display: flex;
+  font-weight: 300;
+  .tempIcon {
+    margin-top: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .tempText {
+    width: 100%;
+  }
+}
+
+.tempNumber {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper {
+  margin: $wrapper-margin 50px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.loadingWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // .loading {
+  //   transform: scale(2);
+  // }
+}
+
+@keyframes articleAnimation {
+  from {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100vw);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+.articleWrapper {
+  width: 100%;
+  min-height: 100%;
+}
+
+.articleWrapperAnimation {
+  animation: articleAnimation 1s ease-in-out;
+}
+
+.sideBarWrapper {
+  min-width: 25vw;
+  max-width: 25vw;
+  & > div {
+    position: sticky;
+    top: $sidebar-top-margin;
+  }
+}
+
+.titleWrapper {
+  // margin: 2.5rem;
+  width: 100%;
+  // padding: 0 10rem;
+  display: flex;
+  justify-content: center;
+  h1 {
+    text-align: center;
+  }
+}
+
+.launchButtonText {
+  font-size: 1.2rem;
+}
+
+.errorWrapper {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    text-align: center;
+    font-size: large;
+  }
+}
+
+.buttonsWrapper {
+  width: 60%;
+  margin: auto;
+}
+
+.buttons {
+  padding: 0 20px;
+  margin: $button-margin;
+  display: flex;
+  justify-content: space-around;
+  div {
+    cursor: pointer;
+    width: $button-height;
+    height: $button-height;
+    @include rounded-border;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      color: #1a1a1a;
+      height: 50%;
+      width: 50%;
+    }
+  }
+  .refuse {
+    background: button-grad(rgba(255, 76, 76, 0.6), 90%, 0.6);
+    &:hover,
+    &:focus-within {
+      background: button-grad(rgba(255, 76, 76, 0.8), 90%, 1);
+    }
+  }
+  .accept {
+    background: button-grad(rgba(12, 250, 36, 0.6), 99%, 0.6);
+    &:hover,
+    &:focus-within {
+      background: button-grad(rgba(12, 250, 36, 0.8), 99%, 1);
+    }
+  }
+}
+
+.launchButtonWrapper {
+  & > div {
+    height: 100%;
+  }
+  height: $launch-button-height;
+}
+
+.graphWrapper {
+  min-height: 450px;
+  @include rounded-border;
+}
+
+.noCandidates {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.swipeCountSufficient {
+  color: #1BA418;
+}

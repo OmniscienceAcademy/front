@@ -1,0 +1,87 @@
+@use "../../abstracts" as *;
+
+.wrapper {
+  padding: 1rem 10%;
+  background: $common-gradient;
+  @include flexColumn;
+  align-items: center;
+  justify-content: center;
+  a:hover,
+  a:focus-within {
+    text-decoration: underline;
+  }
+}
+.content {
+  padding: 0 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  ul {
+    @include flexColumn;
+    padding: 0;
+    li {
+      font-family: DM Sans;
+      padding: 0.3rem 0;
+      margin: 0.3rem 0;
+      h3 {
+        margin: 0.2rem 0;
+        font-weight: 500;
+        font-family: Poppins;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  margin-bottom: 100px;
+}
+
+.subNewsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  div {
+    cursor: pointer;
+    border: $border;
+    border-radius: 12px;
+    padding: 0.6rem;
+    // background: $gradient-start-color;
+    font-size: 1.5rem;
+    font-weight: 700;
+    &:hover,
+    &:focus-within {
+      background: $common-gradient;
+    }
+  }
+}
+
+.lastRow,
+.lastIcons,
+.lastLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lastRow {
+  width: 100%;
+  .lastLinks {
+    a {
+      font-family: DM Sans;
+      margin-right: 1.5rem;
+    }
+  }
+  .lastIcons {
+    a {
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+.newsletter {
+  background-color: white;
+}

@@ -1,0 +1,16 @@
+{
+  "citations": "citations",
+  "informations": "information",
+  "abstract": "abstract",
+  "noAbstract": "No abstract available for this article.",
+  "noTLDR": "No TLDR or abstract available for this article.",
+  "relevance": "Relevance",
+  "closeAbstract": "Close Abstract",
+  "openAbstract": "Show Abstract",
+  "openIn": "Open in :",
+  "closeAbstractAriaLabel": "show abstract for \"{{ title }}\"",
+  "showAbstractAriaLabel": "close abstract for \"{{ title }}\"",
+  "pdfLinkAriaLabel": "link for \"{{ title }}\" in pdf",
+  "articleLinkAriaLabel": "link for \"{{ title }}\"",
+  "tldr": "tldr"
+}

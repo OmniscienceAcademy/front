@@ -1,0 +1,14 @@
+{
+    "about": "About",
+    "manifesto": "Manifesto",
+    "blog": "Blog",
+    "mobileUserAlert": "The mobile version is not yet ready, please log in on a computer.",
+    "sortBy": "sort by",
+    "reportBug": "Report a bug",
+    "errorMessage": "An error occurred, please reload this page.",
+    "closeArticleaAriaLabel": "Close article",
+    "404": "page not found",
+    "copyToClipboard": "Copy Url",
+    "copiedToClipboard": "Url copied!",
+    "share": "Share"
+}

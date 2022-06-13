@@ -1,0 +1,28 @@
+@use "./common" as *;
+
+@mixin font($font-name, $font-weight, $font-path) {
+  @font-face {
+    font-family: $font-name;
+    src: url($font-path);
+    font-style: normal;
+    font-weight: $font-weight;
+    font-display: swap;
+  }
+}
+
+@mixin rounded-border($radius: 10px) {
+  border: $border;
+  border-radius: $radius;
+}
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin fontInherit {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+  // width: 100%;
+  width: fit-content;
+  padding-right: 275px;
+  margin: 50px auto;
+}
+
+.title {
+  transform: translateX(-30px);
+  // font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.relatedSearches {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 15px;
+}
+
+.relatedSearch {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  // border: 1px solid #696969;
+  border-radius: 30px;
+  padding: 3px 20px;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  color: #464646;
+  &:hover {
+    background-color: #d6d6d6;
+    color: black;
+  }
+}
+
+.icon {
+  font-size: 1.2rem;
+}

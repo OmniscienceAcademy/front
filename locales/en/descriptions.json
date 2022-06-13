@@ -1,0 +1,5 @@
+{
+  "choices": "Choose the scientific articles about  \"{{ query }}\". that interest you the most. A minimum of 3 positive choices is required.",
+  "home": "OmniScience is a scientific article search engine that analyzes your preferences to find all the articles that might interest you.",
+  "results": "Here are the most interesting articles for \"{{ query }}\". The ideal article corpus for your literature review."
+}

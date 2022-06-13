@@ -1,0 +1,26 @@
+.toggleAbstract {
+  font-weight: 300;
+  width: 100%;
+  p {
+    margin: 0;
+  }
+  p:hover,
+  &:focus-within {
+    font-weight: 500;
+  }
+  & > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    & > div {
+      display: flex;
+      width: fit-content;
+      div {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

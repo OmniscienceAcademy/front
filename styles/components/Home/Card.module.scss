@@ -1,0 +1,21 @@
+@use "../../abstracts" as *;
+
+$top-bottom-margin: 4%;
+
+.wrapper {
+  @include rounded-border;
+  @include flexColumn;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  .number {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  &.top {
+    margin-bottom: $top-bottom-margin;
+  }
+  &.bottom {
+    margin-top: $top-bottom-margin;
+  }
+}

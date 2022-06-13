@@ -1,0 +1,102 @@
+@use "../../abstracts" as *;
+
+$wrapper-left-padding: 30px;
+
+.wrapperShow {
+  padding-bottom: 50px;
+}
+
+.wrapper {
+  &.positive {
+    background-color: rgba($color: green, $alpha: 0.15);
+  }
+  p {
+    margin: 0;
+  }
+  h3 {
+    margin-bottom: 3px;
+    margin-left: 1rem;
+    color: $results-color;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .abstractTitle {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  @include rounded-border(8px);
+  position: relative;
+  width: 100%;
+  padding-left: $wrapper-left-padding;
+  .mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 7px;
+  }
+  .content {
+    padding: 3px 0;
+    font-size: 0.8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    margin-bottom: calc(1rem + 15px);
+    .title {
+      margin-top: 16px;
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+      margin-bottom: 0.4rem;
+    }
+    .separator {
+      margin: 0 0.5rem;
+    }
+    .authors {
+      font-weight: 600;
+    }
+  }
+  .bottomRow {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: flex-end;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: $results-color;
+  }
+  .bottomRowWrapper {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 2 *#{$wrapper-left-padding});
+  }
+  .abstract {
+    margin-top: -12px;
+    margin-right: $wrapper-left-padding;
+    text-align: justify;
+    h3 {
+      text-transform: uppercase;
+    }
+  }
+  .openIn {
+    position: absolute;
+    top: -4px;
+    left: 0;
+  }
+}
+
+.tags {
+  margin-top: 4px;
+}
+
+.titleLink {
+  &:hover {
+    text-decoration: underline;
+  }
+}

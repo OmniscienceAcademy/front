@@ -1,0 +1,17 @@
+@use "../../abstracts" as *;
+
+.articleList {
+  margin-top: 50px;
+  h2 {
+    color: $results-color;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
+}
+
+.articleListContainer {
+  li {
+    margin: 20px 0;
+  }
+}

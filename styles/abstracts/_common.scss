@@ -1,0 +1,24 @@
+$gradient-start-color: rgba(210, 245, 248, 0.7);
+
+$common-gradient: linear-gradient(
+  315deg,
+  $gradient-start-color 25%,
+  rgba(215, 217, 255, 0.5) 76%
+);
+
+$home-gradient: $common-gradient;
+
+// $home-gradient: conic-gradient(
+//   from 26.04deg at 26.47% 45.23%,
+//   rgba(100, 191, 242, 0) -26.25deg,
+//   #d6d7ff 52.5deg,
+//   rgba(248, 234, 255, 0.368848) 195deg,
+//   rgba(100, 191, 242, 0) 333.75deg,
+//   #d6d7ff 412.5deg
+// );
+
+$header-height: 70px;
+
+$results-color: #979797;
+
+$border: 1px solid black;

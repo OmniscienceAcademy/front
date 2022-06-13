@@ -1,0 +1,67 @@
+@use "../../abstracts" as *;
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: $header-height;
+  & > div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30%;
+    & > div {
+      position: relative;
+      margin: 80px;
+    }
+    h1 {
+      font-family: Apfel Grotezk;
+      font-size: 2.7rem;
+      font-weight: 400;
+      text-align: center;
+      flex-grow: 2;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-grow: 2;
+      font-size: 1.3rem;
+      font-weight: 600;
+      a {
+        text-align: center;
+        padding: 0 10px;
+      }
+      a:hover,
+      a:focus-within {
+        text-decoration: underline;
+      }
+    }
+  }
+  box-shadow: 3px 3px 4px rgba(171, 144, 144, 0.25);
+}
+.grad {
+  position: absolute;
+  width: 100%;
+  height: $header-height;
+  left: 0;
+  top: 0;
+  background: $common-gradient;
+  z-index: -2;
+}
+
+.beta {
+  position: absolute;
+  transform: translateX(120%);
+  top: 0;
+  right: 0;
+  div {
+    font-size: 1.1rem;
+    font-weight: 600;
+    @include rounded-border(4px);
+    p {
+      margin: 2px 6px;
+    }
+  }
+}

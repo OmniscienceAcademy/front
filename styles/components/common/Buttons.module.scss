@@ -1,0 +1,38 @@
+@use "../../abstracts" as *;
+
+.wrapper {
+  width: 100%;
+  padding: 10px 5px;
+  margin-top: 5px;
+  align-items: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  color: $results-color;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  font-weight: normal;
+  p {
+    margin: 4px 0;
+  }
+  span {
+    margin-left: 8px;
+  }
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    @include rounded-border(5px);
+    padding: 2px 7px;
+    margin: 2px 5px;
+    &:hover {
+      background: $common-gradient;
+    }
+    &.active {
+      background: $common-gradient;
+    }
+  }
+}

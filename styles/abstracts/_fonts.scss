@@ -1,0 +1,15 @@
+@use "./mixins" as *;
+
+@include font(
+  "Apfel Grotezk",
+  400,
+  "/fonts/Apfel-Grotezk/ApfelGrotezk-Regular.otf"
+);
+@include font("Poppins", 400, "/fonts/Poppins/Poppins-Regular.ttf");
+@include font("DM Sans", 400, "/fonts/DM-Sans/DMSans-Regular.ttf");
+@include font("Rawline", 300, "/fonts/Rawline/rawline-300.ttf");
+@include font("Rawline", 400, "/fonts/Rawline/rawline-400.ttf");
+@include font("Rawline", 400, "/fonts/Rawline/rawline-500.ttf");
+@include font("Rawline", 600, "/fonts/Rawline/rawline-600.ttf");
+@include font("Rawline", 700, "/fonts/Rawline/rawline-700.ttf");
+@include font("Rawline", 800, "/fonts/Rawline/rawline-800.ttf");

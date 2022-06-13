@@ -1,0 +1,8 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="alarm">
+    <path id="Oval" d="M21.5719 13.6903C21.5719 18.8202 17.4133 22.9787 12.2834 22.9787C7.15356 22.9787 2.99497 18.8202 2.99497 13.6903C2.99497 8.56041 7.15356 4.40182 12.2834 4.40182C17.4133 4.40182 21.5719 8.56041 21.5719 13.6903Z" stroke="black" />
+    <path id="Path 5" d="M12.2834 8.80162V13.6903L15.2166 16.6235" stroke="black" stroke-linecap="round" />
+    <path id="Path 23" d="M19.1274 2.93523L22.0606 5.86842" stroke="black" stroke-linecap="round" />
+    <path id="Path 23_2" d="M2.5061 5.86842L5.4393 2.93523" stroke="black" stroke-linecap="round" />
+  </g>
+</svg>
