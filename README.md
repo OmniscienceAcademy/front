@@ -33,4 +33,3 @@ In some translation you will find `<b>some text</b>`, this is to style some part
 `<p>` tags are juste to facilitate the corresponding html tag insertion,
 `<b>` tags are for text highlights
 `{{ x }}` is for variables, `x` will take a value
-
