@@ -25,7 +25,7 @@ export default function Header() {
           <Link href="https://github.com/OmniscienceAcademy/omniscience-api">
             Github
           </Link>
-          <Link href="mailto:omniscience.project@gmail.com?subject=Feedback%20on%20Omniscience">
+          <Link href="https://github.com/OmniscienceAcademy/omniscience-api/issues">
             {t("common:reportBug")}
           </Link>
         </nav>
